@@ -1,0 +1,25 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --Snigle-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "Lobster", cursive;
+    --Poppins: "Poppins", cursive;
+    --light-black: #2e2c2caf;
+    --bggardient: linear-gradient(to bottom,
+            #19e6bd,
+            #28febd);
+    --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+nav {
+    font-family: var(--Poppins);
+    font-weight: bold;
+    background: var(--bggardient);
+}
