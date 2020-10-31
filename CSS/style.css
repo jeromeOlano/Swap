@@ -3,6 +3,7 @@
 
 * {
     box-sizing: border-box;
+
 }
 
 :root {
@@ -18,8 +19,54 @@
     --light-gray: rgba(255, 255, 255, 0.877);
 }
 
-nav {
+nav img {
+    height: 50px;
+    width: 150px;
+}
+
+header {
+    background: var(--bggardient);
+}
+
+header nav {
     font-family: var(--Poppins);
     font-weight: bold;
+}
+
+header .nav-bar {
+    font-family: var(--Poppins);
+    font-weight: bold;
+}
+
+.nav-bar a {
+    color: black;
+    font-family: var(--Poppins);
+}
+
+footer {
+    margin-top: 1000px;
+    background: #19e6bd;
+    overflow-x: hidden;
+    padding: 5vmin 5vmin;
+}
+
+footer input {
+    border: none;
+}
+
+footer input::placeholder {
+    color: white;
+}
+
+footer .input-group .input-group-text {
     background: var(--bggardient);
+    border: none;
+}
+
+footer .column i {
+    color: #6f523b;
+}
+
+footer .column i+i {
+    padding: 0.05em;
 }
