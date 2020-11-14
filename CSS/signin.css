@@ -22,6 +22,11 @@ body {
     background: var(--bggardient);
 }
 
+main {
+    padding-top: 5%;
+    padding-right: 30%;
+    padding-left: 30%;
+}
 
 .navbar {
     color: whitesmoke;
@@ -96,35 +101,19 @@ header button {
     text-decoration: underline;
 }
 
+
 .container {
     font-family: var(--Poppins);
 }
 
 h1 {
-    font-weight: bolder;
-    padding-bottom: 20px;
+    padding-bottom: 5%;
 }
-
-.image {
-    margin-top: 30%;
-}
-
-.image img {
-    width: 60%;
-    height: 40%;
-}
-
-.login {
-    padding: 4% 4% 4% 4%;
-    border-radius: 4px;
-    margin-top: 23%;
-    margin-bottom: 23.5%;
-    background-color: white;
-}
-
 
 input[type=text],
-input[type=password] {
+input[type=password],
+input[type=email],
+input[type=file] {
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
@@ -133,12 +122,19 @@ input[type=password] {
     background: #f1f1f1;
 }
 
+#gender {
+    margin-right: 70%;
+    margin-bottom: 2%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .forbtn {
     text-align: center;
     padding-top: 3%;
 }
 
-.logbtn {
+.signbtn {
     color: whitesmoke;
     background-color: #4CAF50;
     width: 70%;
@@ -146,25 +142,16 @@ input[type=password] {
     padding-bottom: 2%;
 }
 
-.logbtn:hover {
+.signbtn:hover {
     opacity: 0.8;
 }
 
-span .psw {
-    padding-top: 5%;
-    padding-right: 30%;
-
-}
-
-.newhere {
-    padding-top: 5%;
-    text-align: center;
-}
 
 footer {
     background-color: rgba(0, 0, 0, 0.885);
     overflow-x: hidden;
     padding: 5vmin 5vmin;
+    margin-top: 5%;
 }
 
 #foots h1 {
