@@ -36,15 +36,6 @@
     text-decoration: none;
 }
 
-.col-lg-4,
-#profile {
-    text-align: center;
-}
-
-#profile:hover {
-    color: #19e6bd;
-    text-decoration: underline;
-}
 
 .navbar .input-group {
     justify-content: center;
@@ -53,6 +44,23 @@
 .navbar .col-lg-4 {
     padding-top: 1%;
     padding-bottom: 1%;
+}
+
+.col-lg-4,
+#login+#signin {
+    text-align: center;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+#signin:hover {
+    color: #19e6bd;
+    text-decoration: underline;
+}
+
+#login:hover {
+    color: #19e6bd;
+    text-decoration: underline;
 }
 
 .navbar {

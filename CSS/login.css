@@ -18,6 +18,11 @@
     --light-gray: rgba(255, 255, 255, 0.877);
 }
 
+body {
+    background: var(--bggardient);
+}
+
+
 .navbar {
     color: whitesmoke;
     font-weight: bold;
@@ -36,15 +41,6 @@
     text-decoration: none;
 }
 
-.col-lg-4,
-#profile {
-    text-align: center;
-}
-
-#profile:hover {
-    color: #19e6bd;
-    text-decoration: underline;
-}
 
 .navbar .input-group {
     justify-content: center;
@@ -55,12 +51,35 @@
     padding-bottom: 1%;
 }
 
+.col-lg-4,
+#login+#signin {
+    text-align: center;
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+#signin:hover {
+    color: #19e6bd;
+    text-decoration: underline;
+}
+
+#login:hover {
+    color: #19e6bd;
+    text-decoration: underline;
+}
+
+#login:active {
+    color: #19e6bd;
+    text-decoration: underline;
+}
+
 .navbar {
     align-content: center;
 }
 
 header button {
     background: var(--bggardient);
+    margin-top: 4.5px;
 }
 
 .nav-bar {
@@ -77,31 +96,62 @@ header button {
     text-decoration: underline;
 }
 
-.nav-bar .active {
-    color: #19e6bd;
-    text-decoration: underline;
+.container {
+    font-family: var(--Poppins);
 }
 
-footer {
-    margin-top: 1000px;
-    background-color: rgba(0, 0, 0, 0.885);
-    overflow-x: hidden;
-    padding: 5vmin 5vmin;
+.image {
+    margin-top: 25%;
 }
 
-#foots h1 {
-    color: whitesmoke;
+.image img {
+    width: 60%;
+    height: 40%;
 }
 
-#foots p {
-    color: whitesmoke;
+.login {
+    padding: 4% 4% 4% 4%;
+    border-radius: 4px;
+    margin-top: 23%;
+    margin-bottom: 23.5%;
+    background-color: white;
 }
 
-footer .input-group .input-group-text {
-    background: var(--bggardient);
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
     border: none;
+    background: #f1f1f1;
 }
 
-footer .column i+i {
-    padding: 0.05em;
+.forbtn {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.logbtn {
+    color: whitesmoke;
+    background-color: #4CAF50;
+    width: 70%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.logbtn:hover {
+    opacity: 0.8;
+}
+
+span .psw {
+    padding-top: 5%;
+    padding-right: 30%;
+
+}
+
+.newhere {
+    padding-top: 5%;
+    text-align: center;
 }

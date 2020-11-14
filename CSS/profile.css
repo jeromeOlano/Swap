@@ -41,11 +41,6 @@
     text-align: center;
 }
 
-#profile:hover {
-    color: #19e6bd;
-    text-decoration: underline;
-}
-
 .navbar .input-group {
     justify-content: center;
 }
